@@ -6,6 +6,7 @@ import Newtask from './Newtask';
 import Something from './Something';
 import Useeffect from './Useeffect';
 import Useeffect2 from './Useeffect2';
+import Array from './Array';
 
 
 
@@ -17,7 +18,8 @@ function App() {
    {/* <Useeffect />
    <Useeffect2/> */}
    {/* <Newtask/> */}
-   <Bootstrap />
+   {/* <Bootstrap /> */}
+   <Array/>
  
     </div>
   );
