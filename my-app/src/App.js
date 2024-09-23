@@ -7,6 +7,7 @@ import Something from './Something';
 import Useeffect from './Useeffect';
 import Useeffect2 from './Useeffect2';
 import Array from './Array';
+import TableB from './TableB';
 
 
 
@@ -19,7 +20,8 @@ function App() {
    <Useeffect2/> */}
    {/* <Newtask/> */}
    {/* <Bootstrap /> */}
-   <Array/>
+   {/* <Array/> */}
+   <TableB/>
  
     </div>
   );
