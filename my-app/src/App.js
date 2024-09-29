@@ -8,6 +8,9 @@ import Useeffect from './Useeffect';
 import Useeffect2 from './Useeffect2';
 import Array from './Array';
 import TableB from './TableB';
+import TableBnormal from './TableBnormal';
+import Reuseable from './Reuseable';
+
 
 
 
@@ -21,8 +24,9 @@ function App() {
    {/* <Newtask/> */}
    {/* <Bootstrap /> */}
    {/* <Array/> */}
-   <TableB/>
- 
+   {/* <TableB/> */}
+  {/* <TableBnormal/> */}
+  <Reuseable />
     </div>
   );
 }

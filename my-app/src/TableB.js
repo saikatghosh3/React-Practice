@@ -43,7 +43,7 @@ const TableB = () => {
       ]
   return (
     <div className='Table'>
-   <h1>Bootstrap with table</h1>
+   <h1>Bootstrap with table with dynamic value</h1>
      <div>
         <Table striped bordered hover size='sm' variant = 'dark' responsive>
             <thead>
@@ -56,8 +56,10 @@ const TableB = () => {
             </thead>
             <tbody>
                 {TableData.map((data)=>(
+                  // প্রতিটি পুনরাবৃত্তির জন্য, লুপ ভেরিয়েবল data বর্তমান অবজেক্টের মান গ্রহণ করে।
                      <tr key={data.id}>
                          {/* we have to mantion the key otherwise it will show error in the console */}
+                        
                         <td>{data.id}</td>
                         <td>{data.name}</td>
                         <td>{data.age}</td>
