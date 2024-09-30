@@ -10,6 +10,8 @@ import Array from './Array';
 import TableB from './TableB';
 import TableBnormal from './TableBnormal';
 import Reuseable from './Reuseable';
+import Propsexample from './Propsexample';
+import MemoParent from './MemoParent';
 
 
 
@@ -26,7 +28,9 @@ function App() {
    {/* <Array/> */}
    {/* <TableB/> */}
   {/* <TableBnormal/> */}
-  <Reuseable />
+  {/* <Reuseable /> */}
+  {/* <Propsexample/> */}
+  <MemoParent/>
     </div>
   );
 }
