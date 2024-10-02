@@ -12,6 +12,7 @@ import TableBnormal from './TableBnormal';
 import Reuseable from './Reuseable';
 import Propsexample from './Propsexample';
 import MemoParent from './MemoParent';
+import Memohook from './Memohook';
 
 
 
@@ -30,7 +31,8 @@ function App() {
   {/* <TableBnormal/> */}
   {/* <Reuseable /> */}
   {/* <Propsexample/> */}
-  <MemoParent/>
+  {/* <MemoParent/> */}
+ <Memohook/>
     </div>
   );
 }
