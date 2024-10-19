@@ -13,6 +13,9 @@ import Reuseable from './Reuseable';
 import Propsexample from './Propsexample';
 import MemoParent from './MemoParent';
 import Memohook from './Memohook';
+import UnControlledComponent from './UnControlledComponent';
+import Usecallback from './Usecallback';
+import Uselayout from './Uselayout';
 
 
 
@@ -32,7 +35,10 @@ function App() {
   {/* <Reuseable /> */}
   {/* <Propsexample/> */}
   {/* <MemoParent/> */}
- <Memohook/>
+ {/* <Memohook/> */}
+ {/* <UnControlledComponent/> */}
+ {/* <Usecallback/> */}
+ <Uselayout/>
     </div>
   );
 }
