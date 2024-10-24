@@ -16,6 +16,10 @@ import Memohook from './Memohook';
 import UnControlledComponent from './UnControlledComponent';
 import Usecallback from './Usecallback';
 import Uselayout from './Uselayout';
+import CounterComponent from './CounterComponent';
+import GetMethod from './GetMethod';
+import PostMethod from './PostMethod';
+import UpdateMethod from './UpdateMethod';
 
 
 
@@ -38,7 +42,11 @@ function App() {
  {/* <Memohook/> */}
  {/* <UnControlledComponent/> */}
  {/* <Usecallback/> */}
- <Uselayout/>
+ {/* <CounterComponent/> */}
+ {/* <Uselayout/> */}
+ {/* <GetMethod/> */}
+ {/* <PostMethod/> */}
+ <UpdateMethod/>
     </div>
   );
 }
