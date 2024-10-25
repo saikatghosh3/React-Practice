@@ -20,6 +20,7 @@ import CounterComponent from './CounterComponent';
 import GetMethod from './GetMethod';
 import PostMethod from './PostMethod';
 import UpdateMethod from './UpdateMethod';
+import DeleteMethod from './DeleteMethod';
 
 
 
@@ -46,7 +47,8 @@ function App() {
  {/* <Uselayout/> */}
  {/* <GetMethod/> */}
  {/* <PostMethod/> */}
- <UpdateMethod/>
+ {/* <UpdateMethod/> */}
+ <DeleteMethod />
     </div>
   );
 }
